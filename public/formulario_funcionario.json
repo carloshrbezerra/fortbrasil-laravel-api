@@ -1,0 +1,109 @@
+{
+    "perguntas": [
+        {
+            "codigo": "p1",
+            "id": null,
+            "descricao": "Município?",
+            "opcoes_de_resposta": [
+                {
+                    "id": null,
+                    "descricao": null,
+                    "valor": null,
+                    "tipo": "texto"
+                }
+            ]
+        },
+        {
+            "codigo": "p2",
+            "id": null,
+            "descricao": "Empresa (Razão Social)",
+            "opcoes_de_resposta": [
+                {
+                    "id": null,
+                    "descricao": null,
+                    "valor": null,
+                    "tipo": "texto"
+                }
+            ]
+        },
+        {
+            "codigo": "p3",
+            "id": null,
+            "descricao": "Área de trabalho na empresa",
+            "opcoes_de_resposta": [
+                {
+                    "id": null,
+                    "descricao": "Área Administrativa",
+                    "valor": "area_administrativa",
+                    "tipo": "checkbox"
+                },
+                {
+                    "id": null,
+                    "descricao": "Área Comercial/ vendas",
+                    "valor": "area_comercial",
+                    "tipo": "checkbox"
+                },
+                {
+                    "id": null,
+                    "descricao": "Área Desenvolvimento Pessoal",
+                    "valor": "area_desenvolvimento_pessoal",
+                    "tipo": "checkbox"
+                },
+                {
+                    "id": null,
+                    "descricao": "Área Financeira/contabilidade",
+                    "valor": "area_financeira",
+                    "tipo": "checkbox"
+                },
+                {
+                    "id": null,
+                    "descricao": "Área Jurídica",
+                    "valor": "area_juridica",
+                    "tipo": "checkbox"
+                },
+                {
+                    "id": null,
+                    "descricao": "Área Marketing",
+                    "valor": "area_marketing",
+                    "tipo": "checkbox"
+                },
+                {
+                    "id": null,
+                    "descricao": "Área Produção",
+                    "valor": "area_producao",
+                    "tipo": "checkbox"
+                },
+                {
+                    "id": null,
+                    "descricao": "Área Recursos Humanos",
+                    "valor": "area_recursos_humanos",
+                    "tipo": "checkbox"
+                },
+                {
+                    "id": null,
+                    "descricao": "Área Suprimentos/licitação/compras",
+                    "valor": "area_suprimentos",
+                    "tipo": "checkbox"
+                },
+                {
+                    "id": null,
+                    "descricao": "Área Tecnologia da informação",
+                    "valor": "area_tecnologia",
+                    "tipo": "checkbox"
+                },
+                {
+                    "id": null,
+                    "descricao": "Área de Transportes",
+                    "valor": "area_transporte",
+                    "tipo": "checkbox"
+                },
+                {
+                    "id": null,
+                    "descricao": "Outra. Informar:",
+                    "valor": "area_outra",
+                    "tipo": "checkbox"
+                }
+            ]
+        }
+    ]
+}
