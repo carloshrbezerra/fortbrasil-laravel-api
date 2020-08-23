@@ -1,5 +1,6 @@
 ## Model
 
+
 class Estabelecimento extends Model
 {
     protected $table = 'estabelecimento';
