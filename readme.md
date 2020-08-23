@@ -1,3 +1,30 @@
+## APIS
+```
+Route::middleware('auth:api')->get('/user', function (Request $request) {
+    return $request->user();
+});
+
+Route::group(['middleware' => ['jwt.auth']], function () {
+
+    Route::name('usuario.')->group(function () {
+        Route::resource('usuario', 'UsuarioController');
+    });
+
+    Route::name('estabelecimento.')->group(function () {
+        Route::get('estabelecimento/buscar-localizacao/{localizacao}', 'EstabelecimentoController@findByLocalizacao');
+        Route::resource('estabelecimento', 'EstabelecimentoController');
+    });
+
+});
+
+Route::post('login', 'AuthController@login');
+
+Route::apiResource('menu', 'MenuController');
+Route::apiResource('permissao', 'PermissaoController');
+Route::apiResource('perfil', 'PerfilController');
+
+```
+
 ## Model
 ```
 class Estabelecimento extends Model
